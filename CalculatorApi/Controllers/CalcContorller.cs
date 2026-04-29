@@ -4,7 +4,7 @@ namespace CalculatorApi.Controllers;
 [Route("api/[controller]")]
 public class CalcController : ControllerBase
 {
-    [HttpGet("Add/{a}/{b}")]
+    [HttpPost("Add/{a}/{b}")]
     public IActionResult Add(int a, int b) => Ok(a + b);
     [HttpGet("Subtract/{a}/{b}")]
     public IActionResult Subtract(int a, int b) => Ok(a - b);
