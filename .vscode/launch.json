@@ -1,0 +1,9 @@
+{
+    "configurations": [
+        {
+            "name": "C#: 启动启动项目",
+            "type": "dotnet",
+            "request": "launch"
+        }
+    ]
+}
